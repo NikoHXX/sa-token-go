@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
-	"github.com/HandsomeNPC/sa-token-go/core/config"
-	"github.com/HandsomeNPC/sa-token-go/core/token"
-	"github.com/HandsomeNPC/sa-token-go/core/utils"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core/config"
+	"github.com/NikoHXX/sa-token-go/core/token"
+	"github.com/NikoHXX/sa-token-go/core/utils"
 )
 
 // Refresh Token Implementation

@@ -3,8 +3,8 @@
 package main
 
 import (
+	router "github.com/NikoHXX/sa-token-go/examples/hertz/hertz-example/biz/router"
 	"github.com/cloudwego/hertz/pkg/app/server"
-	router "github.com/HandsomeNPC/sa-token-go/examples/hertz/hertz-example/biz/router"
 )
 
 // register registers all routers.

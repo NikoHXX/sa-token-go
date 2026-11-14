@@ -3,7 +3,7 @@ package manager
 import (
 	"log"
 
-	"github.com/HandsomeNPC/sa-token-go/core/config"
+	"github.com/NikoHXX/sa-token-go/core/config"
 )
 
 // LoginParameter 单次登录的覆盖性参数，未显式赋值的字段回落全局配置。

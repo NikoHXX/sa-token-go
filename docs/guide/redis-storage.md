@@ -10,7 +10,7 @@ Redis storage is the recommended storage backend for production environments. It
 
 ```bash
 # Install Redis storage module
-go get github.com/HandsomeNPC/sa-token-go/storage/redis
+go get github.com/NikoHXX/sa-token-go/storage/redis
 
 # Install Redis client
 go get github.com/redis/go-redis/v9
@@ -24,9 +24,9 @@ go get github.com/redis/go-redis/v9
 package main
 
 import (
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/redis"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/redis"
     goredis "github.com/redis/go-redis/v9"
 )
 
@@ -119,9 +119,9 @@ package main
 import (
     "time"
     
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/redis"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/redis"
     goredis "github.com/redis/go-redis/v9"
 )
 
@@ -199,9 +199,9 @@ import (
     "os"
     "strconv"
     
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/redis"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/redis"
     goredis "github.com/redis/go-redis/v9"
 )
 
@@ -598,10 +598,10 @@ import (
     "time"
 
     "github.com/gin-gonic/gin"
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/redis"
-    sagin "github.com/HandsomeNPC/sa-token-go/integrations/gin"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/redis"
+    sagin "github.com/NikoHXX/sa-token-go/integrations/gin"
     goredis "github.com/redis/go-redis/v9"
 )
 

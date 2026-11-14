@@ -3,12 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
+
+	v1 "github.com/NikoHXX/sa-token-go/examples/kratos/kratos-example/api/helloworld/v1"
+	sakratos "github.com/NikoHXX/sa-token-go/integrations/kratos"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	v1 "github.com/HandsomeNPC/sa-token-go/examples/kratos/kratos-example/api/helloworld/v1"
-	sakratos "github.com/HandsomeNPC/sa-token-go/integrations/kratos"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 var (

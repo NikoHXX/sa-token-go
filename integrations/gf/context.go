@@ -3,8 +3,8 @@ package gf
 import (
 	"net/http"
 
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
 )
 
 type GFContext struct {

@@ -3,9 +3,9 @@
 package main
 
 import (
+	sahertz "github.com/NikoHXX/sa-token-go/integrations/hertz" // 只需这一个导入！
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 	"github.com/cloudwego/hertz/pkg/app/server"
-	sahertz "github.com/HandsomeNPC/sa-token-go/integrations/hertz" // 只需这一个导入！
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
 )
 
 func main() {

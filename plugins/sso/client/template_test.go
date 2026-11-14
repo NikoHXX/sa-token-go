@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/HandsomeNPC/sa-token-go/plugins/sso/common"
+	"github.com/NikoHXX/sa-token-go/plugins/sso/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

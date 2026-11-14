@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/stputil"
 )
 
 // hasAnyPermission returns true if loginID has any permission in list (OR semantics).

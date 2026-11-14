@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 // Annotation constants | 注解常量

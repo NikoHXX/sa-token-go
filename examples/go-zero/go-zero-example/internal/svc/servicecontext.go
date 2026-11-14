@@ -1,10 +1,10 @@
 package svc
 
 import (
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/examples/go-zero/go-zero-example/internal/config"
-	sazero "github.com/HandsomeNPC/sa-token-go/integrations/go-zero"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/examples/go-zero/go-zero-example/internal/config"
+	sazero "github.com/NikoHXX/sa-token-go/integrations/go-zero"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 type ServiceContext struct {

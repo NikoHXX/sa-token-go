@@ -27,9 +27,9 @@ package main
 
 import (
     "github.com/labstack/echo/v4"
-    "github.com/HandsomeNPC/sa-token-go/core"
-    saecho "github.com/HandsomeNPC/sa-token-go/integrations/echo"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    saecho "github.com/NikoHXX/sa-token-go/integrations/echo"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func main() {
@@ -63,9 +63,9 @@ import (
     "net/http"
     
     "github.com/labstack/echo/v4"
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func init() {

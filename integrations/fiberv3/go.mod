@@ -1,11 +1,11 @@
-module github.com/HandsomeNPC/sa-token-go/integrations/fiberv3
+module github.com/NikoHXX/sa-token-go/integrations/fiberv3
 
 go 1.25.0
 
 require (
 	github.com/gofiber/fiber/v3 v3.4.0
-	github.com/HandsomeNPC/sa-token-go/core v0.2.6
-	github.com/HandsomeNPC/sa-token-go/stputil v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.6
+	github.com/NikoHXX/sa-token-go/stputil v0.2.6
 )
 
 require (

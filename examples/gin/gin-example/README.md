@@ -27,9 +27,9 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/HandsomeNPC/sa-token-go/core"
-    sagin "github.com/HandsomeNPC/sa-token-go/integrations/gin"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    sagin "github.com/NikoHXX/sa-token-go/integrations/gin"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func main() {
@@ -60,10 +60,10 @@ import (
     "net/http"
     
     "github.com/gin-gonic/gin"
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    sagin "github.com/HandsomeNPC/sa-token-go/integrations/gin"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    sagin "github.com/NikoHXX/sa-token-go/integrations/gin"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func init() {

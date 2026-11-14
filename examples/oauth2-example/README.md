@@ -179,8 +179,8 @@ Scopes: read, write
 package main
 
 import (
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func main() {

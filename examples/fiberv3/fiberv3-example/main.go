@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/NikoHXX/sa-token-go/core"
+	safiberv3 "github.com/NikoHXX/sa-token-go/integrations/fiberv3"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	"github.com/gofiber/fiber/v3"
 	"github.com/gofiber/fiber/v3/log"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	safiberv3 "github.com/HandsomeNPC/sa-token-go/integrations/fiberv3"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 func init() {

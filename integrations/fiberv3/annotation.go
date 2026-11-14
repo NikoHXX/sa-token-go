@@ -1,9 +1,10 @@
 package fiberv3
 
 import (
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 	"strings"
+
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/stputil"
 )
 
 import (

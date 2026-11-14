@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
+	sagin "github.com/NikoHXX/sa-token-go/integrations/gin"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 	"github.com/gin-gonic/gin"
-	sagin "github.com/HandsomeNPC/sa-token-go/integrations/gin"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
 	"github.com/spf13/viper"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 )
 
 // ChiContext Chi request context adapter | Chi请求上下文适配器

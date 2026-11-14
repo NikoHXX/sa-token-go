@@ -1,9 +1,9 @@
 package hertz
 
 import (
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
 )
 
 // HertzContext Hertz request context adapter | Hertz 请求上下文适配器

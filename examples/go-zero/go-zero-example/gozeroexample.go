@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/HandsomeNPC/sa-token-go/examples/go-zero/go-zero-example/internal/config"
-	"github.com/HandsomeNPC/sa-token-go/examples/go-zero/go-zero-example/internal/handler"
-	"github.com/HandsomeNPC/sa-token-go/examples/go-zero/go-zero-example/internal/svc"
+	"github.com/NikoHXX/sa-token-go/examples/go-zero/go-zero-example/internal/config"
+	"github.com/NikoHXX/sa-token-go/examples/go-zero/go-zero-example/internal/handler"
+	"github.com/NikoHXX/sa-token-go/examples/go-zero/go-zero-example/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

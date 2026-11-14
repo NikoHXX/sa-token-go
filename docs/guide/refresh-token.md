@@ -49,9 +49,9 @@ newInfo, _ := stputil.RefreshAccessToken(tokenInfo.RefreshToken)
 
 ```go
 import (
-    "github.com/HandsomeNPC/sa-token-go/core"
-    "github.com/HandsomeNPC/sa-token-go/stputil"
-    "github.com/HandsomeNPC/sa-token-go/storage/memory"
+    "github.com/NikoHXX/sa-token-go/core"
+    "github.com/NikoHXX/sa-token-go/stputil"
+    "github.com/NikoHXX/sa-token-go/storage/memory"
 )
 
 func init() {

@@ -1,12 +1,12 @@
-module github.com/HandsomeNPC/sa-token-go/integrations/iris
+module github.com/NikoHXX/sa-token-go/integrations/iris
 
 go 1.25.0
 
 require (
 	github.com/kataras/iris/v12 v12.2.11
-	github.com/HandsomeNPC/sa-token-go/core v0.2.6
-	github.com/HandsomeNPC/sa-token-go/storage/memory v0.2.6
-	github.com/HandsomeNPC/sa-token-go/stputil v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.6
+	github.com/NikoHXX/sa-token-go/storage/memory v0.2.6
+	github.com/NikoHXX/sa-token-go/stputil v0.2.6
 	github.com/stretchr/testify v1.11.1
 )
 

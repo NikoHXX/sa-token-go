@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/HandsomeNPC/sa-token-go/core/pool"
+	"github.com/NikoHXX/sa-token-go/core/pool"
 )
 
 // TokenStyle Token generation style | Token生成风格

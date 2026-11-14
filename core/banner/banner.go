@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/HandsomeNPC/sa-token-go/core/config"
-	"github.com/HandsomeNPC/sa-token-go/core/version"
+	"github.com/NikoHXX/sa-token-go/core/config"
+	"github.com/NikoHXX/sa-token-go/core/version"
 )
 
 // Banner startup banner | 启动横幅

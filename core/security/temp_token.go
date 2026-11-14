@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
-	"github.com/HandsomeNPC/sa-token-go/core/errs"
-	"github.com/HandsomeNPC/sa-token-go/core/utils"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core/errs"
+	"github.com/NikoHXX/sa-token-go/core/utils"
 )
 
 // TempTokenInfo stores temporary token metadata | 临时Token信息

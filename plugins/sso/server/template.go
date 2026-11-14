@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	core "github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/core/manager"
-	"github.com/HandsomeNPC/sa-token-go/core/session"
-	"github.com/HandsomeNPC/sa-token-go/core/utils"
-	"github.com/HandsomeNPC/sa-token-go/plugins/sso/common"
+	core "github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/core/manager"
+	"github.com/NikoHXX/sa-token-go/core/session"
+	"github.com/NikoHXX/sa-token-go/core/utils"
+	"github.com/NikoHXX/sa-token-go/plugins/sso/common"
 )
 
 const ssoClientInfoKey = "SSO_CLIENT_INFO_LIST"

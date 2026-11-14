@@ -1,10 +1,10 @@
-module github.com/HandsomeNPC/sa-token-go/plugins/sso
+module github.com/NikoHXX/sa-token-go/plugins/sso
 
 go 1.25.0
 
 require (
-	github.com/HandsomeNPC/sa-token-go/core v0.2.6
-	github.com/HandsomeNPC/sa-token-go/storage/memory v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.6
+	github.com/NikoHXX/sa-token-go/storage/memory v0.2.6
 	github.com/stretchr/testify v1.11.1
 )
 

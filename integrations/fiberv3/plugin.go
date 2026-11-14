@@ -4,7 +4,8 @@ package fiberv3
 
 import (
 	"errors"
-	"github.com/HandsomeNPC/sa-token-go/core"
+
+	"github.com/NikoHXX/sa-token-go/core"
 )
 
 import (

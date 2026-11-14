@@ -3,11 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/labstack/echo/v4"
+	"github.com/NikoHXX/sa-token-go/core"
+	saecho "github.com/NikoHXX/sa-token-go/integrations/echo"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	saecho "github.com/HandsomeNPC/sa-token-go/integrations/echo"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
 )
 
 func main() {

@@ -69,7 +69,7 @@
 
 ## 🔗 外部资源
 
-- [GitHub仓库](https://github.com/HandsomeNPC/sa-token-go)
+- [GitHub仓库](https://github.com/NikoHXX/sa-token-go)
 - [Java版sa-token](https://github.com/dromara/sa-token)
 
 ---

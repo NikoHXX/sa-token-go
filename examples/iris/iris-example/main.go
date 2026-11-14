@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
+	"github.com/NikoHXX/sa-token-go/core"
+	sairis "github.com/NikoHXX/sa-token-go/integrations/iris"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 	"github.com/kataras/iris/v12"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	sairis "github.com/HandsomeNPC/sa-token-go/integrations/iris"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
 )
 
 func main() {

@@ -1,12 +1,12 @@
-module github.com/HandsomeNPC/sa-token-go/examples/redis-example
+module github.com/NikoHXX/sa-token-go/examples/redis-example
 
 go 1.25.0
 
 require (
 	github.com/redis/go-redis/v9 v9.19.0
-	github.com/HandsomeNPC/sa-token-go/core v0.2.6
-	github.com/HandsomeNPC/sa-token-go/storage/redis v0.2.6
-	github.com/HandsomeNPC/sa-token-go/stputil v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.6
+	github.com/NikoHXX/sa-token-go/storage/redis v0.2.6
+	github.com/NikoHXX/sa-token-go/stputil v0.2.6
 )
 
 require (

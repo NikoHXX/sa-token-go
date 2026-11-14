@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/NikoHXX/sa-token-go/core"
+	sagin "github.com/NikoHXX/sa-token-go/integrations/gin"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	"github.com/gin-gonic/gin"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	sagin "github.com/HandsomeNPC/sa-token-go/integrations/gin"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 func init() {

@@ -1,8 +1,8 @@
 package granttype
 
 import (
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
-	"github.com/HandsomeNPC/sa-token-go/core/errs"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core/errs"
 )
 
 // ClientCredentialsHandler client_credentials grant | 客户端模式

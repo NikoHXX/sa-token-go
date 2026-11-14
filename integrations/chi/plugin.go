@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/HandsomeNPC/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/core"
 )
 
 // Plugin Chi plugin for Sa-Token | Chi插件

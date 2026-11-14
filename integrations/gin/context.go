@@ -3,8 +3,8 @@ package gin
 import (
 	"net/http"
 
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 	"github.com/gin-gonic/gin"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
 )
 
 // GinContext Gin request context adapter | Gin请求上下文适配器

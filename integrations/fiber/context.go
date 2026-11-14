@@ -1,9 +1,10 @@
 package fiber
 
 import (
-	"github.com/gofiber/fiber/v2"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
 	"time"
+
+	"github.com/NikoHXX/sa-token-go/core/adapter"
+	"github.com/gofiber/fiber/v2"
 )
 
 // FiberContext Fiber request context adapter | Fiber请求上下文适配器

@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/storage/redis"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	goredis "github.com/redis/go-redis/v9"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/storage/redis"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 func main() {

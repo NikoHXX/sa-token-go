@@ -4,8 +4,8 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 	"github.com/labstack/echo/v4"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
 )
 
 // EchoContext Echo request context adapter | Echo请求上下文适配器

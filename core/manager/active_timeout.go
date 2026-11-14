@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/HandsomeNPC/sa-token-go/core/errs"
-	"github.com/HandsomeNPC/sa-token-go/core/session"
+	"github.com/NikoHXX/sa-token-go/core/errs"
+	"github.com/NikoHXX/sa-token-go/core/session"
 )
 
 // 活跃超时判定的两个哨兵值，与存储层 TTL 语义一致。

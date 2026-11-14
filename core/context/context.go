@@ -3,9 +3,9 @@ package context
 import (
 	"strings"
 
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
-	"github.com/HandsomeNPC/sa-token-go/core/config"
-	"github.com/HandsomeNPC/sa-token-go/core/manager"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core/config"
+	"github.com/NikoHXX/sa-token-go/core/manager"
 )
 
 const (
@@ -64,12 +64,13 @@ func ResolveTokenName(cfg *config.Config) string {
 // mgr 使用 TokenPrefixManager 接口，便于 OAuth2 ManagerLike 直接传入
 //
 // 流程：
-//   Header(TokenName)
-//     ├─ TokenName == Authorization → extractBearerToken 后再 CutTokenPrefix
-//     └─ 其他名 → CutTokenPrefix；若空且名≠Authorization，再尝试 Authorization Bearer 兜底
-//   Cookie(同名键)
-//     └─ CookieAutoFillPrefix=true 时先拼 TokenPrefix，再 CutTokenPrefix
-//   Query(同名键) → CutTokenPrefix
+//
+//	Header(TokenName)
+//	  ├─ TokenName == Authorization → extractBearerToken 后再 CutTokenPrefix
+//	  └─ 其他名 → CutTokenPrefix；若空且名≠Authorization，再尝试 Authorization Bearer 兜底
+//	Cookie(同名键)
+//	  └─ CookieAutoFillPrefix=true 时先拼 TokenPrefix，再 CutTokenPrefix
+//	Query(同名键) → CutTokenPrefix
 func ReadTokenFromRequest(ctx adapter.RequestContext, mgr TokenPrefixManager) string {
 	if ctx == nil || mgr == nil {
 		return ""

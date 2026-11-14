@@ -5,11 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
+	"github.com/NikoHXX/sa-token-go/core"
+	sachi "github.com/NikoHXX/sa-token-go/integrations/chi"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	sachi "github.com/HandsomeNPC/sa-token-go/integrations/chi"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
 )
 
 func main() {

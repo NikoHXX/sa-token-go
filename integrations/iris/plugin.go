@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/NikoHXX/sa-token-go/core"
 	irisfw "github.com/kataras/iris/v12"
-	"github.com/HandsomeNPC/sa-token-go/core"
 )
 
 // Plugin wraps a sa-token Manager and exposes middlewares / example handlers to Iris.

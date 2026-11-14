@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/HandsomeNPC/sa-token-go/core"
-	"github.com/HandsomeNPC/sa-token-go/core/adapter"
+	"github.com/NikoHXX/sa-token-go/core"
+	"github.com/NikoHXX/sa-token-go/core/adapter"
 )
 
 // attachSaTokenToRequest injects Sa-Token context and optional loginID into request context.

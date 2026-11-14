@@ -6,12 +6,12 @@ import (
 	"context"
 	"time"
 
+	"github.com/NikoHXX/sa-token-go/core"
+	user "github.com/NikoHXX/sa-token-go/examples/hertz/hertz-example/biz/model/user"
+	sahertz "github.com/NikoHXX/sa-token-go/integrations/hertz"
+	"github.com/NikoHXX/sa-token-go/stputil"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	"github.com/HandsomeNPC/sa-token-go/core"
-	user "github.com/HandsomeNPC/sa-token-go/examples/hertz/hertz-example/biz/model/user"
-	sahertz "github.com/HandsomeNPC/sa-token-go/integrations/hertz"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
 )
 
 // Login .

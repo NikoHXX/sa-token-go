@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/HandsomeNPC/sa-token-go/core/config"
-	"github.com/HandsomeNPC/sa-token-go/core/manager"
-	"github.com/HandsomeNPC/sa-token-go/storage/memory"
-	"github.com/HandsomeNPC/sa-token-go/stputil"
+	"github.com/NikoHXX/sa-token-go/core/config"
+	"github.com/NikoHXX/sa-token-go/core/manager"
+	"github.com/NikoHXX/sa-token-go/storage/memory"
+	"github.com/NikoHXX/sa-token-go/stputil"
 )
 
 func setupTestManager() *manager.Manager {

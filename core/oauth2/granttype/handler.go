@@ -1,6 +1,6 @@
 package granttype
 
-import "github.com/HandsomeNPC/sa-token-go/core/adapter"
+import "github.com/NikoHXX/sa-token-go/core/adapter"
 
 // Result is a generic grant handler output | 授权处理结果
 type Result struct {
