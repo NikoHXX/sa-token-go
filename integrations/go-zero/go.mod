@@ -3,9 +3,9 @@ module github.com/NikoHXX/sa-token-go/integrations/go-zero
 go 1.25.0
 
 require (
-	github.com/NikoHXX/sa-token-go/core v0.2.6
-	github.com/NikoHXX/sa-token-go/storage/memory v0.2.6
-	github.com/NikoHXX/sa-token-go/stputil v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.7
+	github.com/NikoHXX/sa-token-go/storage/memory v0.2.7
+	github.com/NikoHXX/sa-token-go/stputil v0.2.7
 	github.com/stretchr/testify v1.11.1
 	github.com/zeromicro/go-zero v1.10.1
 )

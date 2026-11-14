@@ -4,8 +4,8 @@ go 1.25.0
 
 require (
 	github.com/gofiber/fiber/v3 v3.4.0
-	github.com/NikoHXX/sa-token-go/core v0.2.6
-	github.com/NikoHXX/sa-token-go/stputil v0.2.6
+	github.com/NikoHXX/sa-token-go/core v0.2.7
+	github.com/NikoHXX/sa-token-go/stputil v0.2.7
 )
 
 require (
