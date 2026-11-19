@@ -215,7 +215,12 @@ func (m *Manager) LoginWithParameter(loginID string, param *LoginParameter) (str
 	}
 
 	// Handle concurrent login behavior | 处理并发登录逻辑
-	if !m.config.IsConcurrent {
+	// 优先用本次 LoginParameter.IsConcurrent，未指定才回落全局配置。
+	isConcurrent := m.config.IsConcurrent
+	if param.IsConcurrent != nil {
+		isConcurrent = *param.IsConcurrent
+	}
+	if !isConcurrent {
 		// Concurrent login not allowed → kick out previous login on same device | 不允许并发登录 → 踢掉同设备下之前的 Token
 		_ = m.kickout(loginID, deviceType)
 

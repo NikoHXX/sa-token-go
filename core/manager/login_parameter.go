@@ -25,6 +25,12 @@ type LoginParameter struct {
 	// 用 int64 会让「未指定」与 0 无法区分。仅在 Config.DynamicActiveTimeout 开启时生效。
 	ActiveTimeout *int64
 
+	// IsConcurrent 本次是否允许同账号并发登录。
+	//
+	// 三态：nil=未指定(回落全局 Config.IsConcurrent) / true=允许 / false=新登录踢旧登录。
+	// 对齐 Java SaLoginParameter.isConcurrent，供等保 allowConcurrentLogin 按次覆盖。
+	IsConcurrent *bool
+
 	// IsRememberMe 记住我模式，TTL 取 Config.RememberMeTimeout。
 	IsRememberMe bool
 }
@@ -46,6 +52,12 @@ func NewLoginParameter(cfg *config.Config) *LoginParameter {
 // SetActiveTimeout 设置本次登录的活跃超时，免去调用方自行取址。
 func (p *LoginParameter) SetActiveTimeout(seconds int64) *LoginParameter {
 	p.ActiveTimeout = &seconds
+	return p
+}
+
+// SetIsConcurrent 设置本次是否允许并发登录，免去调用方自行取址。
+func (p *LoginParameter) SetIsConcurrent(allow bool) *LoginParameter {
+	p.IsConcurrent = &allow
 	return p
 }
 
